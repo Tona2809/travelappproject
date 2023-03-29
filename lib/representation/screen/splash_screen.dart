@@ -45,7 +45,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    // tra ve stack cua hai anh filter ve cai iamge backroun va vong trong circle iamge nho hon
+    // tra ve stack cua hai anh filter ve cai image backround va vong trong circle image nho hon
     return Stack(
       children: [
         Positioned.fill(
