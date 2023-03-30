@@ -13,7 +13,7 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Text('Main App'),
       ),

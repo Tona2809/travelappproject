@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209055630468",
+    "project_id": "flutterfirebasedemo-a7efb",
+    "storage_bucket": "flutterfirebasedemo-a7efb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209055630468:android:4175cb90e2d1cc344f2ed1",
+        "android_client_info": {
+          "package_name": "com.iute.travelappproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209055630468-39hiadejp8oiostc9tm2ndg8rkn22g64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzwK2CzkRa3SRyfDwkbdrE_-ho_BWFVvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209055630468-39hiadejp8oiostc9tm2ndg8rkn22g64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

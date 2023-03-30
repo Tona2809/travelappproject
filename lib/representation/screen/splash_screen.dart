@@ -3,6 +3,7 @@ import 'package:travelappproject/core/helpers/asset_helper.dart';
 import 'package:travelappproject/core/helpers/image_helper.dart';
 import 'package:travelappproject/core/helpers/local_storage_helper.dart';
 import 'package:travelappproject/representation/screen/intro_screen.dart';
+import 'package:travelappproject/representation/screen/login_screen.dart';
 import 'package:travelappproject/representation/screen/main_app.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -32,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // kiem tra neu bien ignore la false
     if(ignoreIntro ?? false) {
       // dieu huong den trang main app
-      Navigator.of(context).pushNamed(MainApp.routeName);
+      Navigator.of(context).pushNamed(LoginScreen.routeName);
     }
     else {
       // set Value cho bien ignoreIntro bang true thong qua class Local su dung Singleton
