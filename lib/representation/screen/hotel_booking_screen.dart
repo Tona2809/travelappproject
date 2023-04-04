@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:travelappproject/core/constants/dimension_constants.dart';
 import 'package:travelappproject/core/extensions/date_extension.dart';
 import 'package:travelappproject/core/helpers/asset_helper.dart';
+import 'package:travelappproject/representation/screen/guess_and_room_screen.dart';
 import 'package:travelappproject/representation/screen/hotel_screen.dart';
 import 'package:travelappproject/representation/widgets/app_bar_container.dart';
 
@@ -52,19 +53,19 @@ class _HotelBookingScreenState extends State<HotelBookingScreen> {
                 }
               },
             ),
-            // ItemOptionBookingWidget(
-            //   title: 'Guest and Room',
-            //   value: guestAndRoom ?? 'Guest and Room',
-            //   icon: AssetHelper.icoBed,
-            //   onTap: () async {
-            //     final result = await Navigator.of(context).pushNamed(GuestAndRoomScreen.routeName);
-            //     if (result is List<int>) {
-            //       setState(() {
-            //         guestAndRoom = '${result[0]} Guest, ${result[1]} Room';
-            //       });
-            //     }
-            //   },
-            // ),
+            ItemOptionBookingWidget(
+              title: 'Guest and Room',
+              value: guestAndRoom ?? 'Guest and Room',
+              icon: AssetHelper.icoBed,
+              onTap: () async {
+                final result = await Navigator.of(context).pushNamed(RoomAndGuessScreen.routeName);
+                if (result is List<int>) {
+                  setState(() {
+                    guestAndRoom = '${result[0]} Guest, ${result[1]} Room';
+                  });
+                }
+              },
+            ),
             ItemButtonWidget(
               data: 'Search',
               onTap: () {
